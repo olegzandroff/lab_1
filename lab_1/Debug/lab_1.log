@@ -1,0 +1,31 @@
+﻿  handle_menu.cpp
+  input_menu.cpp
+  read_number_from_file.cpp
+  sem_3_handle_menu.cpp
+  sem_3_input_from_file.cpp
+  sem_3_input_yourself.cpp
+  sem_3_quick_sort.cpp
+  sem_4_input_yourself.cpp
+  sem_4_input_from_file.cpp
+  sem_5_handle_menu.cpp
+  sem_4_handle_menu.cpp
+  sem_5_input.cpp
+  show_menu.cpp
+  main.cpp
+  read_number.cpp
+  sem_3_show_menu.cpp
+  sem_4_show_menu.cpp
+  sem_5_show_menu.cpp
+  sem_3_menu.cpp
+  sem_4_menu.cpp
+  Создание кода...
+F:\my_documents\ВУЗ\3 семестр\Технология программирования\Лаб. работы\№1\lab_1\lab_1\sem_3_handle_menu.cpp(50): error C4703: используется потенциально неинициализированная локальная переменная-указатель "array"
+  Компиляция...
+  sem_5_menu.cpp
+  sem_3_subtask_1_Sum_positives.cpp
+  sem_3_subtask_2_Product_absmin_absmax.cpp
+  sem_4_subtask_2_Sort_by_characteristic.cpp
+  sem_3_subtask_3_Sort.cpp
+  sem_4_subtask_1_Sum_of _positive_even_numbers.cpp
+  sum_of_positives.cpp
+  Создание кода...

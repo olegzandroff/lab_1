@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\sem_5">
+      <UniqueIdentifier>{b1e80855-fdbb-4cde-9653-2943da45cd45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\sem_4">
+      <UniqueIdentifier>{9e02e9cb-69e2-4320-9fa5-be23a3c0c31e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\sem_3">
+      <UniqueIdentifier>{68a02c69-0729-46f9-92bc-9ad8104ca561}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\interface">
+      <UniqueIdentifier>{8c9ae3b4-9de4-4ff7-9a4c-98436f89003d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\interface\sem_3">
+      <UniqueIdentifier>{95a53fed-4bc0-478e-be78-4a2d1f147c2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\interface\sem_4">
+      <UniqueIdentifier>{54c15c6b-c961-48d9-af89-49abf7565d80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\interface\sem_5">
+      <UniqueIdentifier>{b6a6b61f-40fd-46f2-bcd4-811f618e0df8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\main">
+      <UniqueIdentifier>{f7a6583e-5a31-40c9-82c9-f4c87c15cebb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="libraries.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="prototypes.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="sem_3_input_menu.cpp">
+      <Filter>Исходные файлы\interface\sem_3</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="read_number.cpp">
+      <Filter>Исходные файлы\interface</Filter>
+    </ClCompile>
+    <ClCompile Include="sem_3_menu.cpp">
+      <Filter>Исходные файлы\interface\sem_3</Filter>
+    </ClCompile>
+    <ClCompile Include="sem_4_menu.cpp">
+      <Filter>Исходные файлы\interface\sem_4</Filter>
+    </ClCompile>
+    <ClCompile Include="sem_5_menu.cpp">
+      <Filter>Исходные файлы\interface\sem_5</Filter>
+    </ClCompile>
+    <ClCompile Include="sem_3_subtask_3_Sort.cpp">
+      <Filter>Исходные файлы\interface\sem_3</Filter>
+    </ClCompile>
+    <ClCompile Include="sem_3_show_menu.cpp">
+      <Filter>Исходные файлы\interface\sem_3</Filter>
+    </ClCompile>
+    <ClCompile Include="sem_4_show_menu.cpp">
+      <Filter>Исходные файлы\interface\sem_4</Filter>
+    </ClCompile>
+    <ClCompile Include="sem_5_show_menu.cpp">
+      <Filter>Исходные файлы\interface\sem_5</Filter>
+    </ClCompile>
+    <ClCompile Include="sem_4_handle_menu.cpp">
+      <Filter>Исходные файлы\interface\sem_4</Filter>
+    </ClCompile>
+    <ClCompile Include="sem_5_handle_menu.cpp">
+      <Filter>Исходные файлы\interface\sem_5</Filter>
+    </ClCompile>
+    <ClCompile Include="sem_3_handle_menu.cpp">
+      <Filter>Исходные файлы\interface\sem_3</Filter>
+    </ClCompile>
+    <ClCompile Include="show_menu.cpp">
+      <Filter>Исходные файлы\main</Filter>
+    </ClCompile>
+    <ClCompile Include="handle_menu.cpp">
+      <Filter>Исходные файлы\main</Filter>
+    </ClCompile>
+    <ClCompile Include="sem_3_subtask_1_Sum_positives.cpp">
+      <Filter>Исходные файлы\interface\sem_3</Filter>
+    </ClCompile>
+    <ClCompile Include="sem_4_subtask_2_Sort_by_characteristic.cpp">
+      <Filter>Исходные файлы\interface\sem_4</Filter>
+    </ClCompile>
+    <ClCompile Include="sem_3_subtask_2_Product_absmin_absmax.cpp">
+      <Filter>Исходные файлы\interface\sem_3</Filter>
+    </ClCompile>
+    <ClCompile Include="sem_5_input.cpp">
+      <Filter>Исходные файлы\interface\sem_5</Filter>
+    </ClCompile>
+    <ClCompile Include="sem_3_input_yourself.cpp">
+      <Filter>Исходные файлы\interface\sem_3</Filter>
+    </ClCompile>
+    <ClCompile Include="sem_3_input_from_file.cpp">
+      <Filter>Исходные файлы\interface\sem_3</Filter>
+    </ClCompile>
+    <ClCompile Include="sem_4_subtask_1_Sum_of _positive_even_numbers.cpp">
+      <Filter>Исходные файлы\interface\sem_4</Filter>
+    </ClCompile>
+    <ClCompile Include="read_number_from_file.cpp">
+      <Filter>Исходные файлы\interface</Filter>
+    </ClCompile>
+    <ClCompile Include="read_line.cpp">
+      <Filter>Исходные файлы\interface</Filter>
+    </ClCompile>
+    <ClCompile Include="sem_4_input_from_file.cpp">
+      <Filter>Исходные файлы\interface\sem_4</Filter>
+    </ClCompile>
+    <ClCompile Include="sem_4_input_yourself.cpp">
+      <Filter>Исходные файлы\interface\sem_4</Filter>
+    </ClCompile>
+    <ClCompile Include="input_menu.cpp">
+      <Filter>Исходные файлы\interface\sem_4</Filter>
+    </ClCompile>
+    <ClCompile Include="sum_of_positives.cpp">
+      <Filter>Исходные файлы\sem_3</Filter>
+    </ClCompile>
+    <ClCompile Include="sem_3_quick_sort.cpp">
+      <Filter>Исходные файлы\sem_3</Filter>
+    </ClCompile>
+    <ClCompile Include="product.cpp">
+      <Filter>Исходные файлы\main</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
