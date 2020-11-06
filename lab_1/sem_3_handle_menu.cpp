@@ -20,8 +20,8 @@ void interface::sem_3::handle_menu() {
 	{
 	case 1:
 		show_menu();
-		length = interface::read_number_from_file("F:\\my_documents\\ВУЗ\\3 семестр\\Технология программирования\\Лаб. работы\\№1\\lab_1\\lab_1\\default_inputs\\sem_3_input.txt");
-		array = input_from_file("F:\\my_documents\\ВУЗ\\3 семестр\\Технология программирования\\Лаб. работы\\№1\\lab_1\\lab_1\\default_inputs\\sem_3_input.txt");
+		length = interface::read_number_from_file("default_inputs\\sem_3_input.txt");
+		array = input_from_file("default_inputs\\sem_3_input.txt");
 		input_empty = false;
 		if (!input_empty)
 		{
@@ -47,24 +47,24 @@ void interface::sem_3::handle_menu() {
 
 	case 1:
 		//1 - Find the sum of positive elements.
-		subtask_1(*array, length);
+		//subtask_1(*array, length);
 		break;
 
 	case 2:
 		//2 - Find the product of positive elements.
-		subtask_2(*array, length);
+		//subtask_2(*array, length);
 		break;
 
 	case 3:
 		//3 - Sort the array.
-		subtask_3(*array, length);
+		//subtask_3(*array, length);
 		break;
 
 	case 4:
 		//4 - Execute every subtask.
-		subtask_1(*array, length);
-		subtask_2(*array, length);
-		subtask_3(*array, length);
+		//subtask_1(*array, length);
+		//subtask_2(*array, length);
+		//subtask_3(*array, length);
 		break;
 
 	case 5: {
