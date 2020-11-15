@@ -1,76 +1,43 @@
 #pragma once
+	int interface_read_number();
+	int interface_read_number_from_file (const char* path);
 
-namespace interface {
-	int read_number();
-	int read_number_from_file (const char* path);
+	int menu(char(*a)[100], void (*fcn_ptrs[])(), int);
+	int menu(char(*a)[100], void (*fcn_ptrs[])(double*, int), int fcn_number, double* array, int length);
+	int menu(char(*a)[100], void (*fcn_ptrs[])(double**, int, int), int fcn_number, double** array, int n, int m);
+	int menu(char(*a)[100], void (*fcnPtr[])(char* string, int length), int fcn_number, char* string, int length);
 
-	namespace main {
-		void show_menu();
-		//void settings();
-		bool handle_menu();
-	}
 
+	void main_menu();
+	void exit();
 	//double* read_numbers(double& arr, int n);
 	//double** read_numbers(double** arr, int x, int y);
-	namespace sem_3 {
-		double* input_yourself();
-		double* input_default();
-		double* input_from_file(const char* path);
+	void interface_sem_3_menu_item_1(double* array, int length);
+	void interface_sem_3_menu_item_2(double* array, int length);
+	void interface_sem_3_menu_item_3(double* array, int length);
+	void interface_sem_3_menu_item_4(double* array, int length);
+	void interface_sem_3_menu_item_5(double* array, int length);
+	double* interface_sem_3_input_from_file(const char* path, int length);
+	void interface_sem_3_menu();
 
-		void input_menu(double& array, int* length, bool* input_empty);
-		void show_menu();
-		void handle_menu();
-		void menu();
+	double** interface_sem_4_input_from_file(const char* path, int n, int m);
+	void interface_sem_4_menu();
 
-		void subtask_1(double& array, int length);
-		void subtask_2(double& array, int length);
-		void subtask_3(double& array, int length);
-	}
+	void interface_sem_4_menu_item_1(double** array, int n, int m);
+	void interface_sem_4_menu_item_2(double** array, int n, int m);
+	void interface_sem_4_menu_item_3(double** array, int n, int m);
+	void interface_sem_4_menu_item_4(double** array, int n, int m);
 
-	namespace sem_4 {
-		void input_menu();
+	void interface_sem_5_menu();
+	void interface_sem_5_menu_item_1(char* string, int length);
 
-		void input_yourself();
-		void input_default();
-		void input_from_file();
+	double* sem_3_input_check(double* array, int n);
+	double sem_3_sum_of_positives(double* array, int length);
+	double sem_3_product_between_absmin_absmax(double* array, int length);
+	double* sem_3_quick_sort(double* array, int first, int last);
 
-		void show_menu();
-		void handle_menu();
-		void menu();
+	double* sem_3_offer_to_choose_min_max(double* array, int n);
 
-		void subtask_1();
-		void subtask_2();
-	}
-
-	namespace sem_5 {
-		void input_menu();
-
-		void input_yourself();
-		void input_default();
-		void input_from_file();
-
-		void show_menu();
-		void handle_menu();
-		void menu();
-	}
-}
-namespace not_interface {
-	namespace sem_3 {
-		double* input_check(double& arr, int n);
-		double* sum_of_positives(double& arr, int n);
-		double* product_of_positives(double& arr, int n);
-		double* quick_sort(double& arr, int n);
-		double* offer_to_choose_min_max(double& arr, int n);
-	}
-
-	namespace sem_4 {
-		double* input_check(double& arr, int n);
-		double* sort(double& arr, int n);
-		double* sum_of_even_positives(double& arr, int n);
-	}
-
-	namespace sem_5 {
-
-		double* input_check(double& arr, int n);
-	}
-}
+	double* sem_4_input_check(double** arr, int n);
+	double* sem_4_sort(double** arr, int n);
+	double* sem_4_sum_of_even_positives(double** arr, int n);

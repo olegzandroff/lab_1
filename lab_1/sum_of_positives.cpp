@@ -1,7 +1,10 @@
 #include "prototypes.h"
 #include "libraries.h"
 
-double* sum_of_positives(double& arr, int n) 
+double sem_3_sum_of_positives(double* array, int length) 
 {
-	return nullptr;
+	double result = 0;
+	for (int i = 0; i < length; i++)
+		if (array[i]) result += array[i];
+	return result;
 };

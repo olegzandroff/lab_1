@@ -5,3 +5,4 @@
 #include <cstdio>
 #include <stdlib.h>
 #include <fstream>
+#include <math.h> 

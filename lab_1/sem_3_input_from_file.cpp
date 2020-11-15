@@ -1,14 +1,12 @@
 #include "libraries.h"
 #include "prototypes.h"
 
-using namespace interface::sem_3;
 
-double* interface::sem_3::input_from_file (const char *path) {
+double* interface_sem_3_input_from_file (const char *path, int length) {
 	std::ifstream file;
 	file.open(path);
 	int n;
 	file >> n;
-	std::cout << n << "\n";
 	double* ptr = new double[n];
 	for (int i = 0; i < n; i++)
 	{

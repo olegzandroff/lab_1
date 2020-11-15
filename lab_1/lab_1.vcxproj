@@ -139,38 +139,25 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="handle_menu.cpp" />
-    <ClCompile Include="input_menu.cpp" />
-    <ClCompile Include="product.cpp" />
+    <ClCompile Include="exit.cpp" />
+    <ClCompile Include="main_menu.cpp" />
+    <ClCompile Include="menu.cpp" />
+    <ClCompile Include="sem_3_menu_items.cpp" />
     <ClCompile Include="read_line.cpp" />
     <ClCompile Include="read_number_from_file.cpp" />
-    <ClCompile Include="sem_3_handle_menu.cpp" />
     <ClCompile Include="sem_3_input_from_file.cpp" />
-    <ClCompile Include="sem_3_input_yourself.cpp" />
+    <ClCompile Include="sem_3_product_between_absmin_absmax.cpp" />
     <ClCompile Include="sem_3_quick_sort.cpp" />
-    <ClCompile Include="sem_4_input_yourself.cpp" />
     <ClCompile Include="sem_4_input_from_file.cpp" />
-    <ClCompile Include="sem_5_handle_menu.cpp" />
-    <ClCompile Include="sem_4_handle_menu.cpp" />
-    <ClCompile Include="sem_5_input.cpp" />
-    <ClCompile Include="show_menu.cpp" />
+    <ClCompile Include="sem_4_menu_items.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="read_number.cpp" />
-    <ClCompile Include="sem_3_show_menu.cpp" />
-    <ClCompile Include="sem_4_show_menu.cpp" />
-    <ClCompile Include="sem_5_show_menu.cpp" />
     <ClCompile Include="sem_3_menu.cpp" />
     <ClCompile Include="sem_4_menu.cpp" />
     <ClCompile Include="sem_5_menu.cpp" />
-    <ClCompile Include="sem_3_subtask_1_Sum_positives.cpp" />
-    <ClCompile Include="sem_3_subtask_2_Product_absmin_absmax.cpp" />
-    <ClCompile Include="sem_4_subtask_2_Sort_by_characteristic.cpp" />
-    <ClCompile Include="sem_3_subtask_3_Sort.cpp" />
-    <ClCompile Include="sem_4_subtask_1_Sum_of _positive_even_numbers.cpp" />
     <ClCompile Include="sum_of_positives.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="sem_3_input_menu.cpp" />
     <ClInclude Include="libraries.h" />
     <ClInclude Include="prototypes.h" />
   </ItemGroup>

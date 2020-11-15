@@ -1,7 +1,7 @@
 #include "libraries.h"
 #include "prototypes.h"
 
-int interface::read_number() {
+int interface_read_number() {
 	std::cout << "Input a number: " << "\n";
 	char* str = new char[10];
 	bool flag = true;

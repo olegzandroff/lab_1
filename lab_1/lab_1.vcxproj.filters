@@ -34,7 +34,7 @@
     <Filter Include="Исходные файлы\interface\sem_5">
       <UniqueIdentifier>{b6a6b61f-40fd-46f2-bcd4-811f618e0df8}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Исходные файлы\main">
+    <Filter Include="Исходные файлы\interface\main">
       <UniqueIdentifier>{f7a6583e-5a31-40c9-82c9-f4c87c15cebb}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
@@ -44,9 +44,6 @@
     </ClInclude>
     <ClInclude Include="prototypes.h">
       <Filter>Файлы заголовков</Filter>
-    </ClInclude>
-    <ClInclude Include="sem_3_input_menu.cpp">
-      <Filter>Исходные файлы\interface\sem_3</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -65,53 +62,8 @@
     <ClCompile Include="sem_5_menu.cpp">
       <Filter>Исходные файлы\interface\sem_5</Filter>
     </ClCompile>
-    <ClCompile Include="sem_3_subtask_3_Sort.cpp">
-      <Filter>Исходные файлы\interface\sem_3</Filter>
-    </ClCompile>
-    <ClCompile Include="sem_3_show_menu.cpp">
-      <Filter>Исходные файлы\interface\sem_3</Filter>
-    </ClCompile>
-    <ClCompile Include="sem_4_show_menu.cpp">
-      <Filter>Исходные файлы\interface\sem_4</Filter>
-    </ClCompile>
-    <ClCompile Include="sem_5_show_menu.cpp">
-      <Filter>Исходные файлы\interface\sem_5</Filter>
-    </ClCompile>
-    <ClCompile Include="sem_4_handle_menu.cpp">
-      <Filter>Исходные файлы\interface\sem_4</Filter>
-    </ClCompile>
-    <ClCompile Include="sem_5_handle_menu.cpp">
-      <Filter>Исходные файлы\interface\sem_5</Filter>
-    </ClCompile>
-    <ClCompile Include="sem_3_handle_menu.cpp">
-      <Filter>Исходные файлы\interface\sem_3</Filter>
-    </ClCompile>
-    <ClCompile Include="show_menu.cpp">
-      <Filter>Исходные файлы\main</Filter>
-    </ClCompile>
-    <ClCompile Include="handle_menu.cpp">
-      <Filter>Исходные файлы\main</Filter>
-    </ClCompile>
-    <ClCompile Include="sem_3_subtask_1_Sum_positives.cpp">
-      <Filter>Исходные файлы\interface\sem_3</Filter>
-    </ClCompile>
-    <ClCompile Include="sem_4_subtask_2_Sort_by_characteristic.cpp">
-      <Filter>Исходные файлы\interface\sem_4</Filter>
-    </ClCompile>
-    <ClCompile Include="sem_3_subtask_2_Product_absmin_absmax.cpp">
-      <Filter>Исходные файлы\interface\sem_3</Filter>
-    </ClCompile>
-    <ClCompile Include="sem_5_input.cpp">
-      <Filter>Исходные файлы\interface\sem_5</Filter>
-    </ClCompile>
-    <ClCompile Include="sem_3_input_yourself.cpp">
-      <Filter>Исходные файлы\interface\sem_3</Filter>
-    </ClCompile>
     <ClCompile Include="sem_3_input_from_file.cpp">
       <Filter>Исходные файлы\interface\sem_3</Filter>
-    </ClCompile>
-    <ClCompile Include="sem_4_subtask_1_Sum_of _positive_even_numbers.cpp">
-      <Filter>Исходные файлы\interface\sem_4</Filter>
     </ClCompile>
     <ClCompile Include="read_number_from_file.cpp">
       <Filter>Исходные файлы\interface</Filter>
@@ -122,20 +74,29 @@
     <ClCompile Include="sem_4_input_from_file.cpp">
       <Filter>Исходные файлы\interface\sem_4</Filter>
     </ClCompile>
-    <ClCompile Include="sem_4_input_yourself.cpp">
-      <Filter>Исходные файлы\interface\sem_4</Filter>
-    </ClCompile>
-    <ClCompile Include="input_menu.cpp">
-      <Filter>Исходные файлы\interface\sem_4</Filter>
-    </ClCompile>
     <ClCompile Include="sum_of_positives.cpp">
       <Filter>Исходные файлы\sem_3</Filter>
     </ClCompile>
     <ClCompile Include="sem_3_quick_sort.cpp">
       <Filter>Исходные файлы\sem_3</Filter>
     </ClCompile>
-    <ClCompile Include="product.cpp">
-      <Filter>Исходные файлы\main</Filter>
+    <ClCompile Include="menu.cpp">
+      <Filter>Исходные файлы\interface</Filter>
+    </ClCompile>
+    <ClCompile Include="main_menu.cpp">
+      <Filter>Исходные файлы\interface\main</Filter>
+    </ClCompile>
+    <ClCompile Include="exit.cpp">
+      <Filter>Исходные файлы\interface\main</Filter>
+    </ClCompile>
+    <ClCompile Include="sem_4_menu_items.cpp">
+      <Filter>Исходные файлы\interface\sem_4</Filter>
+    </ClCompile>
+    <ClCompile Include="sem_3_menu_items.cpp">
+      <Filter>Исходные файлы\interface\sem_3</Filter>
+    </ClCompile>
+    <ClCompile Include="sem_3_product_between_absmin_absmax.cpp">
+      <Filter>Исходные файлы\sem_3</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

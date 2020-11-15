@@ -1,5 +1,6 @@
 #include "libraries.h"
 #include "prototypes.h"
 
-using namespace interface::sem_5;
-
+void exit() {
+	std::exit(0);
+}
