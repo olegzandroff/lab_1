@@ -1,6 +1,6 @@
 #include "libraries.h"
 #include "prototypes.h"
 
-void exit() {
+void interface_exit() {
 	std::exit(0);
 }

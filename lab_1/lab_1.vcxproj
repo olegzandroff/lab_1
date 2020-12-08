@@ -139,23 +139,50 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="exit.cpp" />
+    <ClCompile Include="cout_array.cpp" />
+    <ClCompile Include="cout_matrix.cpp" />
+    <ClCompile Include="cout_text.cpp" />
+    <ClCompile Include="main_exit.cpp" />
+    <ClCompile Include="functions_for_strings.cpp" />
+    <ClCompile Include="sem_3_input_menu.cpp" />
+    <ClCompile Include="sem_3_input_menu_items.cpp" />
+    <ClCompile Include="sem_3_tasks_menu.cpp" />
+    <ClCompile Include="sem_3_tasks_menu_item_1_sum_of_positives.cpp" />
+    <ClCompile Include="sem_3_tasks_menu_item_2_product_between_absmin_absmax.cpp" />
+    <ClCompile Include="sem_3_tasks_menu_item_3_quicksort.cpp" />
+    <ClCompile Include="sem_3_tasks_menu_item_4_everything.cpp" />
+    <ClCompile Include="sem_3_tasks_menu_item_5_exit.cpp" />
+    <ClCompile Include="sem_4_input_menu_items.cpp" />
+    <ClCompile Include="sem_4_menu_input.cpp" />
+    <ClCompile Include="sem_4_tasks_menu.cpp" />
+    <ClCompile Include="sem_5_input_menu.cpp" />
     <ClCompile Include="main_menu.cpp" />
-    <ClCompile Include="menu.cpp" />
-    <ClCompile Include="sem_3_menu_items.cpp" />
-    <ClCompile Include="read_line.cpp" />
+    <ClCompile Include="all_menus.cpp" />
+    <ClCompile Include="sem_3_bs.cpp" />
+    <ClCompile Include="get_file_length.cpp" />
     <ClCompile Include="read_number_from_file.cpp" />
-    <ClCompile Include="sem_3_input_from_file.cpp" />
     <ClCompile Include="sem_3_product_between_absmin_absmax.cpp" />
     <ClCompile Include="sem_3_quick_sort.cpp" />
+    <ClCompile Include="sem_4_bs.cpp" />
+    <ClCompile Include="sem_4_count_nonzero_columns.cpp" />
     <ClCompile Include="sem_4_input_from_file.cpp" />
-    <ClCompile Include="sem_4_menu_items.cpp" />
+    <ClCompile Include="sem_4_items.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="read_number.cpp" />
-    <ClCompile Include="sem_3_menu.cpp" />
-    <ClCompile Include="sem_4_menu.cpp" />
-    <ClCompile Include="sem_5_menu.cpp" />
-    <ClCompile Include="sum_of_positives.cpp" />
+    <ClCompile Include="sem_3.cpp" />
+    <ClCompile Include="sem_4.cpp" />
+    <ClCompile Include="sem_4_sort.cpp" />
+    <ClCompile Include="sem_5_bs.cpp" />
+    <ClCompile Include="sem_5_get_array_of_sentences.cpp" />
+    <ClCompile Include="sem_5_find_sentence.cpp" />
+    <ClCompile Include="sem_5_get_sentence_index.cpp" />
+    <ClCompile Include="sem_5_input_menu_items.cpp" />
+    <ClCompile Include="sem_5_input_text_from_file.cpp" />
+    <ClCompile Include="sem_5.cpp" />
+    <ClCompile Include="sem_5_items.cpp" />
+    <ClCompile Include="sem_5_tasks_menu.cpp" />
+    <ClCompile Include="sem_3_sum_of_positives.cpp" />
+    <ClCompile Include="solutions.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="libraries.h" />

@@ -3,8 +3,7 @@
 
 int main()
 {	
-	setlocale(LC_ALL, "Russian");
 	while(true) {
-		main_menu();
+		interface_main_menu();
 	}
 }

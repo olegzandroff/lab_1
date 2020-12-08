@@ -1,27 +1,21 @@
 #include "libraries.h"
 #include "prototypes.h"
 
-void main_menu() {
+void interface_main_menu() {
 	system("CLS");
-	//std::fstream file("images\\asciiimage.txt");
-	//std::string s;
-	//while (getline(file, s)) {
-	//	std::cout << s<<"\n";
-	//}
-	//std::cout << "\n";
 	const int n = 4;
-	char chars[n][100] = { 
-		"1 - sem_3 - array\n", 
-		"2 - sem_4 - matrix\n", 
-		"3 - sem_5 - char sequences\n",
+	char strings[n][100] = { 
+		"1 - sem_3 (array)\n", 
+		"2 - sem_4 (matrix)\n", 
+		"3 - sem_5 (char sequences)\n",
 		"4 - exit\n",
 	};
 	void (*actions[n])() = {
-		interface_sem_3_menu, 
-		interface_sem_4_menu, 
-		interface_sem_5_menu,
-		exit
+		interface_sem_3, 
+		interface_sem_4,
+		interface_sem_5,
+		interface_exit
 	};
-	menu(chars, actions, n);
+	menu(strings, actions, n);
 	
 }

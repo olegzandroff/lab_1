@@ -1,15 +1,14 @@
 #include "libraries.h"
 #include "prototypes.h"
 
-
-double** interface_sem_4_input_from_file(const char* path, int n, int m) {
+matrix_elem_t** interface_sem_4_input_from_file(const char* path, int n, int m) {
 	std::ifstream file;
 	file.open(path);
 	file >> n >> m;
-	double** ptr = new double*[n];
+	matrix_elem_t** ptr = new matrix_elem_t *[n];
 	for (int i = 0; i < n; i++)
 	{
-		ptr[i] = new double[m];
+		ptr[i] = new matrix_elem_t[m];
 	}
 	for (int i = 0; i < n; i++)
 	{

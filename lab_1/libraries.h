@@ -6,3 +6,5 @@
 #include <stdlib.h>
 #include <fstream>
 #include <math.h> 
+#include <cstring>
+#include <ctime>
