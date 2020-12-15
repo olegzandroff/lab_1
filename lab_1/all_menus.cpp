@@ -1,7 +1,3 @@
-<<<<<<< HEAD
- 
-=======
->>>>>>> templates
 #include "prototypes.h"
 
 //int b[6][3][8];
