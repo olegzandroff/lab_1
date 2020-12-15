@@ -1,6 +1,10 @@
+<<<<<<< HEAD
  
 #include "prototypes.h"
 
+=======
+ #include "prototypes.h"
+>>>>>>> templates
 
 char* interface_sem_5_input_text_from_file(const char* path) {
 	int length = get_file_length_in_chars(path);

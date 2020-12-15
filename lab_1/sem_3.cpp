@@ -1,10 +1,15 @@
+<<<<<<< HEAD
  
 #include "prototypes.h"
+=======
+ #include "prototypes.h"
+>>>>>>> templates
 
 void interface_sem_3() 
 {
 	int length = 0;
 	array_elem_t* array = interface_sem_3_input_menu(&length);
-	if (array == nullptr) return;
+	if (array == nullptr) 
+		return;
 	interface_sem_3_tasks_menu(array, length);
 }

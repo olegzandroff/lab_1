@@ -1,6 +1,10 @@
+<<<<<<< HEAD
  
 #include "prototypes.h"
 
+=======
+ #include "prototypes.h"
+>>>>>>> templates
 
 matrix_elem_t** interface_sem_4_input_menu_item_3(int* n, int* m) 
 {

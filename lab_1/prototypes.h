@@ -1,6 +1,10 @@
 #pragma once
 #include "libraries.h"
+<<<<<<< HEAD
 	long get_file_length_in_chars(const char* path);
+=======
+long get_file_length_in_chars(const char* path);
+>>>>>>> templates
 	//Обработка ввода чисел
 	int interface_read_number();
 	int interface_read_positive_number();

@@ -1,5 +1,8 @@
 #include "prototypes.h"
+<<<<<<< HEAD
  
+=======
+>>>>>>> templates
 
 array_elem_t* sem_3_shell_sort(const array_elem_t* array, int n)
 {

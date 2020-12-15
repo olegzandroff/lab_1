@@ -1,4 +1,7 @@
+<<<<<<< HEAD
  
+=======
+>>>>>>> templates
 #include "prototypes.h"
 
 void interface_exit() 

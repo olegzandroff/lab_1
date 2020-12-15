@@ -1,4 +1,7 @@
+<<<<<<< HEAD
  
+=======
+>>>>>>> templates
 #include "prototypes.h"
 
 matrix_elem_t** interface_sem_4_input_menu(int* n, int* m)

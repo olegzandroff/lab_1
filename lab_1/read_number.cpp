@@ -1,5 +1,9 @@
+<<<<<<< HEAD
  
 #include "prototypes.h"
+=======
+ #include "prototypes.h"
+>>>>>>> templates
 
 int interface_read_number() 
 {

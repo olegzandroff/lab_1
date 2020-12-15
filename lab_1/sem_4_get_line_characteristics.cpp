@@ -1,5 +1,8 @@
 #include "prototypes.h"
+<<<<<<< HEAD
  
+=======
+>>>>>>> templates
 
 matrix_elem_t sem_4_get_line_characteristic(const matrix_elem_t* const* array, int i, int m) 
 {

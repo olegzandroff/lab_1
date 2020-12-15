@@ -1,5 +1,8 @@
 #include "prototypes.h"
+<<<<<<< HEAD
  
+=======
+>>>>>>> templates
 
 int sem_3_absmin_i_n(const array_elem_t* array, int length) 
 {

@@ -1,5 +1,9 @@
+<<<<<<< HEAD
  
 #include "prototypes.h"
+=======
+ #include "prototypes.h"
+>>>>>>> templates
 
 void interface_sem_4() 
 {

@@ -1,5 +1,9 @@
+<<<<<<< HEAD
  
 #include "prototypes.h"
+=======
+ #include "prototypes.h"
+>>>>>>> templates
 
 bool sem_3_bad_scenario_1(const array_elem_t* array, int length) 
 {

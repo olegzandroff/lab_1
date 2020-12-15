@@ -1,5 +1,9 @@
+<<<<<<< HEAD
  
 #include "prototypes.h"
+=======
+ #include "prototypes.h"
+>>>>>>> templates
 
 array_elem_t* interface_sem_3_input_menu(int* length) {
 	array_elem_t* array = nullptr;
@@ -18,7 +22,7 @@ array_elem_t* interface_sem_3_input_menu(int* length) {
 		interface_sem_3_input_menu_item_4
 	};
 
-	system("cls");
+	system("CLS");
 	std::cout << "sem_3 input menu\n";
 	return menu(chars_1, actions_1, n_1, length);
 }

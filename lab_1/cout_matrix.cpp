@@ -1,5 +1,9 @@
+<<<<<<< HEAD
  
 #include "prototypes.h"
+=======
+ #include "prototypes.h"
+>>>>>>> templates
 
 void cout_matrix(const matrix_elem_t* const* array, int n, int m, bool charac = false) {
 

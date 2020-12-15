@@ -1,5 +1,9 @@
+<<<<<<< HEAD
  
 #include "prototypes.h"
+=======
+ #include "prototypes.h"
+>>>>>>> templates
 
 char* stringcat(char* dest, const char* src) {
 	size_t destlen = strlen(dest);

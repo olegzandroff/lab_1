@@ -1,5 +1,8 @@
 #include "prototypes.h"
+<<<<<<< HEAD
  
+=======
+>>>>>>> templates
 
 int get_pos_i_n(const array_elem_t* array, int length)
 {

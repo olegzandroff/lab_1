@@ -1,6 +1,9 @@
 #include "prototypes.h"
  
+<<<<<<< HEAD
 
+=======
+>>>>>>> templates
 int sem_3_absmax_i_n(const array_elem_t* array, int length) 
 {
 	array_elem_t absmax = sem_3_absmax_v(array, length);

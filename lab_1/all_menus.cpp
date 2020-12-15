@@ -1,5 +1,9 @@
+<<<<<<< HEAD
  
+=======
+>>>>>>> templates
 #include "prototypes.h"
+
 //int b[6][3][8];
 //int(*p2)[3][8] = b; // pointer to the first element b[0] of the array b,
                      // which is an array of 3 arrays of 8 ints
@@ -23,8 +27,8 @@ int menu(char(*a)[100], void (*fcn_ptrs[])(), int fcn_number)
 }
 
 //sem_3
-int menu(char(*a)[100], void (*fcn_ptrs[])(const array_elem_t*, int), int fcn_number, 
-            const array_elem_t* array, int length) 
+int menu(char(*a)[100], void (*fcn_ptrs[])(const array_elem_t*, int), int fcn_number,
+            const array_elem_t* array, int length)
 {
     int k = interface_menu_cout_and_choose(a, fcn_number);
     fcn_ptrs[k - 1](array, length);

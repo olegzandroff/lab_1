@@ -1,5 +1,8 @@
 #include "prototypes.h"
+<<<<<<< HEAD
  
+=======
+>>>>>>> templates
 
 int sem_4_get_nonzero_column_i_n(const matrix_elem_t* const* array, int n, int m) 
 {
