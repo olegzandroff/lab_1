@@ -49,9 +49,6 @@
     <Filter Include="Исходные файлы\sem_5\sem_5_bad_scenarios">
       <UniqueIdentifier>{dee0cc5e-4fb6-4f38-b9a7-0a66b56ca615}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Исходные файлы\sem_5\sem_5_solutions">
-      <UniqueIdentifier>{c461b630-69a9-427f-b030-a55e1315390f}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Исходные файлы\main\interface">
       <UniqueIdentifier>{aedf9da0-af06-4681-9e9c-08fc3bcb30b6}</UniqueIdentifier>
     </Filter>
@@ -76,6 +73,30 @@
     <Filter Include="Исходные файлы\sem_3\interface\tasks_menu\items">
       <UniqueIdentifier>{e1823813-d626-4908-b7c6-295c515b888b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Исходные файлы\sem_4\interface\tasks_menu\items">
+      <UniqueIdentifier>{194d5120-20e4-467a-a88a-981dec32667d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\sem_3\sem_3_solutions\1">
+      <UniqueIdentifier>{58e42963-b4e9-453d-91e2-1180c1fdaf32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\sem_3\sem_3_solutions\2">
+      <UniqueIdentifier>{6b19a10c-8e77-4b8b-b39c-bca3f7273506}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\sem_3\sem_3_solutions\3">
+      <UniqueIdentifier>{43968c80-772d-451d-801e-24d452670b14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\sem_4\sem_4_solutions\1">
+      <UniqueIdentifier>{b635eaf4-9d66-493d-87af-0cec5e7e0398}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\sem_4\sem_4_solutions\2">
+      <UniqueIdentifier>{3142e9fd-919b-4241-be8e-2536ba7c5082}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\sem_5\sem_5_solution">
+      <UniqueIdentifier>{c461b630-69a9-427f-b030-a55e1315390f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\sem_3\interface\input_menu\items">
+      <UniqueIdentifier>{7b8d3f62-edb9-49f8-9baa-a2971d724db8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="libraries.h">
@@ -86,9 +107,6 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
     <ClCompile Include="sem_4_bs.cpp">
       <Filter>Исходные файлы\sem_4\sem_4_bad_scenarios</Filter>
     </ClCompile>
@@ -107,50 +125,14 @@
     <ClCompile Include="cout_text.cpp">
       <Filter>Исходные файлы\sem_5\interface</Filter>
     </ClCompile>
-    <ClCompile Include="functions_for_strings.cpp">
-      <Filter>Исходные файлы\sem_5</Filter>
-    </ClCompile>
-    <ClCompile Include="read_number.cpp">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
-    <ClCompile Include="read_number_from_file.cpp">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
     <ClCompile Include="sem_5_get_array_of_sentences.cpp">
-      <Filter>Исходные файлы\sem_5\sem_5_solutions</Filter>
-    </ClCompile>
-    <ClCompile Include="sem_5_find_sentence.cpp">
-      <Filter>Исходные файлы\sem_5\sem_5_solutions</Filter>
-    </ClCompile>
-    <ClCompile Include="sem_5_get_sentence_index.cpp">
-      <Filter>Исходные файлы\sem_5\sem_5_solutions</Filter>
-    </ClCompile>
-    <ClCompile Include="sem_4_count_nonzero_columns.cpp">
-      <Filter>Исходные файлы\sem_4\sem_4_solutions</Filter>
-    </ClCompile>
-    <ClCompile Include="sem_4_sort.cpp">
-      <Filter>Исходные файлы\sem_4\sem_4_solutions</Filter>
-    </ClCompile>
-    <ClCompile Include="sem_3_product_between_absmin_absmax.cpp">
-      <Filter>Исходные файлы\sem_3\sem_3_solutions</Filter>
-    </ClCompile>
-    <ClCompile Include="sem_3_quick_sort.cpp">
-      <Filter>Исходные файлы\sem_3\sem_3_solutions</Filter>
+      <Filter>Исходные файлы\sem_5\sem_5_solution</Filter>
     </ClCompile>
     <ClCompile Include="sem_5_bs.cpp">
       <Filter>Исходные файлы\sem_5\sem_5_bad_scenarios</Filter>
     </ClCompile>
     <ClCompile Include="main_menu.cpp">
       <Filter>Исходные файлы\main\interface</Filter>
-    </ClCompile>
-    <ClCompile Include="sem_3_input_menu_items.cpp">
-      <Filter>Исходные файлы\sem_3\interface\input_menu</Filter>
-    </ClCompile>
-    <ClCompile Include="sem_4_input_menu_items.cpp">
-      <Filter>Исходные файлы\sem_4\interface\input_menu</Filter>
-    </ClCompile>
-    <ClCompile Include="sem_4_items.cpp">
-      <Filter>Исходные файлы\sem_4\interface\tasks_menu</Filter>
     </ClCompile>
     <ClCompile Include="sem_3_input_menu.cpp">
       <Filter>Исходные файлы\sem_3\interface\input_menu</Filter>
@@ -182,30 +164,6 @@
     <ClCompile Include="get_file_length.cpp">
       <Filter>Исходные файлы\sem_5\interface\input_menu</Filter>
     </ClCompile>
-    <ClCompile Include="sem_3_sum_of_positives.cpp">
-      <Filter>Исходные файлы\sem_3\sem_3_solutions</Filter>
-    </ClCompile>
-    <ClCompile Include="solutions.cpp">
-      <Filter>Исходные файлы\sem_3\sem_3_solutions</Filter>
-    </ClCompile>
-    <ClCompile Include="all_menus.cpp">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
-    <ClCompile Include="sem_3_tasks_menu_item_1_sum_of_positives.cpp">
-      <Filter>Исходные файлы\sem_3\interface\tasks_menu\items</Filter>
-    </ClCompile>
-    <ClCompile Include="sem_3_tasks_menu_item_2_product_between_absmin_absmax.cpp">
-      <Filter>Исходные файлы\sem_3\interface\tasks_menu\items</Filter>
-    </ClCompile>
-    <ClCompile Include="sem_3_tasks_menu_item_3_quicksort.cpp">
-      <Filter>Исходные файлы\sem_3\interface\tasks_menu\items</Filter>
-    </ClCompile>
-    <ClCompile Include="sem_3_tasks_menu_item_4_everything.cpp">
-      <Filter>Исходные файлы\sem_3\interface\tasks_menu\items</Filter>
-    </ClCompile>
-    <ClCompile Include="sem_3_tasks_menu_item_5_exit.cpp">
-      <Filter>Исходные файлы\sem_3\interface\tasks_menu\items</Filter>
-    </ClCompile>
     <ClCompile Include="main_exit.cpp">
       <Filter>Исходные файлы\main\interface</Filter>
     </ClCompile>
@@ -217,6 +175,120 @@
     </ClCompile>
     <ClCompile Include="sem_4.cpp">
       <Filter>Исходные файлы\main\interface</Filter>
+    </ClCompile>
+    <ClCompile Include="sem_4_tasks_menu_item_1_nonzero_columns.cpp">
+      <Filter>Исходные файлы\sem_4\interface\tasks_menu\items</Filter>
+    </ClCompile>
+    <ClCompile Include="sem_4_tasks_menu_item_2_sort_by_characterisctic.cpp">
+      <Filter>Исходные файлы\sem_4\interface\tasks_menu\items</Filter>
+    </ClCompile>
+    <ClCompile Include="sem_4_tasks_menu_item_3_everything.cpp">
+      <Filter>Исходные файлы\sem_4\interface\tasks_menu\items</Filter>
+    </ClCompile>
+    <ClCompile Include="sem_4_tasks_menu_item_4_exit.cpp">
+      <Filter>Исходные файлы\sem_4\interface\tasks_menu\items</Filter>
+    </ClCompile>
+    <ClCompile Include="absmax_i_n.cpp">
+      <Filter>Исходные файлы\sem_3\sem_3_solutions\2</Filter>
+    </ClCompile>
+    <ClCompile Include="absmax_v.cpp">
+      <Filter>Исходные файлы\sem_3\sem_3_solutions\2</Filter>
+    </ClCompile>
+    <ClCompile Include="absmin_i_n.cpp">
+      <Filter>Исходные файлы\sem_3\sem_3_solutions\2</Filter>
+    </ClCompile>
+    <ClCompile Include="absmin_v.cpp">
+      <Filter>Исходные файлы\sem_3\sem_3_solutions\2</Filter>
+    </ClCompile>
+    <ClCompile Include="get_absmax_i.cpp">
+      <Filter>Исходные файлы\sem_3\sem_3_solutions\2</Filter>
+    </ClCompile>
+    <ClCompile Include="get_absmin_i.cpp">
+      <Filter>Исходные файлы\sem_3\sem_3_solutions\2</Filter>
+    </ClCompile>
+    <ClCompile Include="sum_of_positives.cpp">
+      <Filter>Исходные файлы\sem_3\sem_3_solutions\1</Filter>
+    </ClCompile>
+    <ClCompile Include="product_between.cpp">
+      <Filter>Исходные файлы\sem_3\sem_3_solutions\2</Filter>
+    </ClCompile>
+    <ClCompile Include="sem_4_count_nonzero_columns.cpp">
+      <Filter>Исходные файлы\sem_4\sem_4_solutions\1</Filter>
+    </ClCompile>
+    <ClCompile Include="sem_4_sort.cpp">
+      <Filter>Исходные файлы\sem_4\sem_4_solutions\2</Filter>
+    </ClCompile>
+    <ClCompile Include="functions_for_strings.cpp">
+      <Filter>Исходные файлы\sem_5\sem_5_solution</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Исходные файлы\main</Filter>
+    </ClCompile>
+    <ClCompile Include="all_menus.cpp">
+      <Filter>Исходные файлы\main\interface</Filter>
+    </ClCompile>
+    <ClCompile Include="read_number.cpp">
+      <Filter>Исходные файлы\main\interface</Filter>
+    </ClCompile>
+    <ClCompile Include="read_number_from_file.cpp">
+      <Filter>Исходные файлы\main\interface</Filter>
+    </ClCompile>
+    <ClCompile Include="sem_4_item_1_from_file.cpp">
+      <Filter>Исходные файлы\sem_4\interface\input_menu</Filter>
+    </ClCompile>
+    <ClCompile Include="sem_4_item_2_from_console.cpp">
+      <Filter>Исходные файлы\sem_4\interface\input_menu</Filter>
+    </ClCompile>
+    <ClCompile Include="sem_4_item_3_random_numbers.cpp">
+      <Filter>Исходные файлы\sem_4\interface\input_menu</Filter>
+    </ClCompile>
+    <ClCompile Include="sem_4_item_4_exit.cpp">
+      <Filter>Исходные файлы\sem_4\interface\input_menu</Filter>
+    </ClCompile>
+    <ClCompile Include="sem_3_item_2_from_console.cpp">
+      <Filter>Исходные файлы\sem_3\interface\input_menu\items</Filter>
+    </ClCompile>
+    <ClCompile Include="sem_3_item_1_from_file.cpp">
+      <Filter>Исходные файлы\sem_3\interface\input_menu\items</Filter>
+    </ClCompile>
+    <ClCompile Include="sem_3_item_3_random_numbers.cpp">
+      <Filter>Исходные файлы\sem_3\interface\input_menu\items</Filter>
+    </ClCompile>
+    <ClCompile Include="sem_3_item_4_exit.cpp">
+      <Filter>Исходные файлы\sem_3\interface\input_menu\items</Filter>
+    </ClCompile>
+    <ClCompile Include="tasks_item_1_sum_of_positives.cpp">
+      <Filter>Исходные файлы\sem_3\interface\tasks_menu\items</Filter>
+    </ClCompile>
+    <ClCompile Include="tasks_item_2_product_between_absmin_absmax.cpp">
+      <Filter>Исходные файлы\sem_3\interface\tasks_menu\items</Filter>
+    </ClCompile>
+    <ClCompile Include="tasks_item_4_everything.cpp">
+      <Filter>Исходные файлы\sem_3\interface\tasks_menu\items</Filter>
+    </ClCompile>
+    <ClCompile Include="tasks_sem_3_tasks_menu_item_5_exit.cpp">
+      <Filter>Исходные файлы\sem_3\interface\tasks_menu\items</Filter>
+    </ClCompile>
+    <ClCompile Include="sem_4_get_line_characteristics.cpp">
+      <Filter>Исходные файлы\sem_4\sem_4_solutions\2</Filter>
+    </ClCompile>
+    <ClCompile Include="sem_4_get_new_matrix.cpp">
+      <Filter>Исходные файлы\sem_4\sem_4_solutions\2</Filter>
+    </ClCompile>
+    <ClCompile Include="tasks_item_3_shell_sort.cpp">
+      <Filter>Исходные файлы\sem_3\interface\tasks_menu\items</Filter>
+    </ClCompile>
+    <ClCompile Include="shell_sort.cpp">
+      <Filter>Исходные файлы\sem_3\sem_3_solutions\3</Filter>
+    </ClCompile>
+    <ClCompile Include="get_pos_i.cpp">
+      <Filter>Исходные файлы\sem_3\sem_3_solutions\1</Filter>
+    </ClCompile>
+    <ClCompile Include="get_pos_i_n.cpp">
+      <Filter>Исходные файлы\sem_3\sem_3_solutions\1</Filter>
+    </ClCompile>
+    <ClCompile Include="parse_line.cpp">
+      <Filter>Исходные файлы\sem_4\interface\input_menu</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

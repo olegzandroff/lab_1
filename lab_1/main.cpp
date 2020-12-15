@@ -3,7 +3,6 @@
 
 int main()
 {	
-	while(true) {
+	while(true)
 		interface_main_menu();
-	}
 }

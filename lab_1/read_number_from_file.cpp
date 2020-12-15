@@ -1,7 +1,8 @@
 #include "libraries.h"
 #include "prototypes.h"
 
-int interface_read_number_from_file(const char* path) {
+int interface_read_number_from_file(const char* path) 
+{
 	std::fstream file(path);
 	int n;
 	file >> n;

@@ -1,12 +1,10 @@
 #include "libraries.h"
 #include "prototypes.h"
 
-char** sem_5_get_array_of_sentences(char* text, size_t* sentences_quantity) 
-{
+char** sem_5_get_array_of_sentences(char* text, size_t* sentences_quantity) {
 	//size_t sentences_quantity = 0;
 	for (size_t i = 0; i < strlen(text); i++)
-		if (text[i] == '.' || text[i] == '?' || text[i] == '!' || text[i] == '...') 
-			(*sentences_quantity)++;
+		if (text[i] == '.' || text[i] == '?' || text[i] == '!' || text[i] == '...') (*sentences_quantity)++;
 
 	char* pch = NULL;
 	char* next_token = NULL;

@@ -1,26 +1,29 @@
 #include "libraries.h"
 #include "prototypes.h"
 
-//bool sem_3_bad_scenario_1(const array_elem_t* array, int length) {
-	//int positive_count = 0;
-	//for (int i = 0; i < length; i++)
-	//	if (array[i] > 0) positive_count ++;
-	//return positive_count<2;
-//}		 
-		 
-bool sem_3_bad_scenario_1(const array_elem_t* array, int length) {
-	array_elem_t absmax = array[0], absmin = array[0];
-	for (int i = 0; i < length; i++)
-	{
-		if (abs(array[i]) > absmax) absmax = abs(array[i]);
-		if (abs(array[i]) < absmin) absmin = abs(array[i]);
-	}
+bool sem_3_bad_scenario_1(const array_elem_t* array, int length) 
+{
+	array_elem_t absmax = sem_3_absmax_v(array, length), absmin = sem_3_absmin_v(array, length);
 	int count = 0;
 	for (int i = 0; i < length; i++)
 		if (abs(array[i]) == absmax || abs(array[i]) == absmin) count++;
-	return count > 2;
+	if (absmax == absmin)
+		return count > absmax;
+	else return count > 2;
 }		 
 		 
-bool sem_3_bad_scenario_2(const array_elem_t* array, int length, int absmax_i, int absmin_i) {
-	return absmax_i == absmin_i;
+bool sem_3_bad_scenario_2(const int* absmin_i, int absmin_i_n, int absmin_index) 
+{
+	int flag = true;
+	for (int i = 0; i < absmin_i_n; i++)
+		if (absmin_i[i] == absmin_index) flag = false;
+	return flag;
+}
+
+bool sem_3_bad_scenario_3(const int* absmax_i, int absmax_i_n, int absmax_index) 
+{
+	int flag = true;
+	for (int i = 0; i < absmax_i_n; i++)
+		if (absmax_i[i] == absmax_index) flag = false;
+	return flag;
 }
