@@ -1,4 +1,3 @@
-#include "libraries.h"
 #include "prototypes.h"
 
 bool sem_4_bad_scenario_1(int n, int m) {

@@ -1,5 +1,5 @@
 #include "prototypes.h"
-#include "libraries.h"
+ 
 
 array_elem_t sem_3_product_between(const array_elem_t* array, int length, int i_1, int i_2) 
 {

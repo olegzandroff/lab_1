@@ -1,4 +1,4 @@
-#include "libraries.h"
+ 
 #include "prototypes.h"
 
 bool sem_3_bad_scenario_1(const array_elem_t* array, int length) 

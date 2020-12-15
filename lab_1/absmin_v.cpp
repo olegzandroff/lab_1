@@ -1,5 +1,5 @@
 #include "prototypes.h"
-#include "libraries.h"
+ 
 
 array_elem_t sem_3_absmin_v(const array_elem_t* array, int length)
 {

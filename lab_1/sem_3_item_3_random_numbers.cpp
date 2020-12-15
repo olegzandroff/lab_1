@@ -1,4 +1,4 @@
-#include "libraries.h"
+ 
 #include "prototypes.h"
 
 array_elem_t* interface_sem_3_input_menu_item_3(int* length) {
@@ -10,7 +10,7 @@ array_elem_t* interface_sem_3_input_menu_item_3(int* length) {
 	srand(static_cast<unsigned int>(time(0)));
 	for (int i = 0; i < *length; i++)
 	{
-		array[i] = rand() % 1000;
+		array[i] = static_cast<array_elem_t> (rand() % 1000);
 		array[i] *= (rand() % 2) ? -1 : 1;
 	}
 	return array;

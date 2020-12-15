@@ -1,6 +1,5 @@
 #include "prototypes.h"
-#include "libraries.h"
-
+ 
 int* sem_3_get_absmax_i(const array_elem_t* array, int length) 
 {
 	array_elem_t absmax_v = sem_3_absmax_v(array, length);

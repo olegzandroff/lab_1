@@ -1,4 +1,4 @@
-#include "libraries.h"
+ 
 #include "prototypes.h"
 
 void interface_cout_array(const array_elem_t* array, int length)

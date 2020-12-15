@@ -1,4 +1,4 @@
-#include "libraries.h"
+ 
 #include "prototypes.h"
 //int b[6][3][8];
 //int(*p2)[3][8] = b; // pointer to the first element b[0] of the array b,

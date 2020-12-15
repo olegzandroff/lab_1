@@ -1,4 +1,4 @@
-#include "libraries.h"
+ 
 #include "prototypes.h"
 
 void cout_text_and_word(const char* text, const char* word) {

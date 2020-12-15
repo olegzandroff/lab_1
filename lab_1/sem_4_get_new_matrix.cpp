@@ -1,5 +1,5 @@
 #include "prototypes.h"
-#include "libraries.h"
+ 
 
 matrix_elem_t** sem_4_get_new_matrix(const matrix_elem_t* const* array, int n, int m) {
 	matrix_elem_t** matrix = new matrix_elem_t* [n];

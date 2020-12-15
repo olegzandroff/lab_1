@@ -1,11 +1,11 @@
 #pragma once
-
-long get_file_length_in_chars(const char* path);
+#include "libraries.h"
+	long get_file_length_in_chars(const char* path);
 	//ќбработка ввода чисел
 	int interface_read_number();
 	int interface_read_positive_number();
 	//объ€вление типов дл€ массива и матрицы
-	typedef long matrix_elem_t;
+	typedef int matrix_elem_t;
 	typedef double array_elem_t;
 
 	//обща€ часть дл€ всех реализаций функции menu
