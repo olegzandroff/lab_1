@@ -1,9 +1,5 @@
-<<<<<<< HEAD
- 
 #include "prototypes.h"
-=======
- #include "prototypes.h"
->>>>>>> templates
+ 
 
 char* interface_sem_5_input_menu_item_1() 
 {

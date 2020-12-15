@@ -1,9 +1,4 @@
-<<<<<<< HEAD
- 
 #include "prototypes.h"
-=======
- #include "prototypes.h"
->>>>>>> templates
 
 void interface_cout_array(const array_elem_t* array, int length)
 {

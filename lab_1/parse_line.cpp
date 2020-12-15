@@ -1,9 +1,5 @@
-<<<<<<< HEAD
- 
 #include "prototypes.h"
-=======
- #include "prototypes.h"
->>>>>>> templates
+ 
 
 matrix_elem_t* parse_line(char* buffer, int m)
 {

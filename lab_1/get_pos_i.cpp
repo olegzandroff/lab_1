@@ -1,8 +1,4 @@
-#include "prototypes.h"
-<<<<<<< HEAD
- 
-=======
->>>>>>> templates
+#include "prototypes.h" 
 
 int* get_pos_i(const array_elem_t* array, int length)
 {

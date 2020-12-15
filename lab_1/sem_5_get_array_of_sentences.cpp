@@ -1,9 +1,5 @@
-<<<<<<< HEAD
- 
 #include "prototypes.h"
-=======
- #include "prototypes.h"
->>>>>>> templates
+ 
 
 char** sem_5_get_array_of_sentences(char* text, size_t* sentences_quantity) 
 {

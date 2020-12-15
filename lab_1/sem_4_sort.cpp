@@ -1,8 +1,4 @@
 #include "prototypes.h"
-<<<<<<< HEAD
- 
-=======
->>>>>>> templates
 
 matrix_elem_t** sem_4_sort(const matrix_elem_t* const * array, int n, int m) {
 	matrix_elem_t* line_characteristic = sem_4_get_all_characteristics(array, n, m);

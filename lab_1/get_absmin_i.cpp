@@ -1,8 +1,4 @@
 #include "prototypes.h"
-<<<<<<< HEAD
- 
-=======
->>>>>>> templates
 
 int* sem_3_get_absmin_i(const array_elem_t* array, int length) 
 {

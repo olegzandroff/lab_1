@@ -1,9 +1,5 @@
-<<<<<<< HEAD
- 
 #include "prototypes.h"
-=======
- #include "prototypes.h"
->>>>>>> templates
+ 
 
 array_elem_t* interface_sem_3_input_menu(int* length) {
 	array_elem_t* array = nullptr;

@@ -1,10 +1,6 @@
-<<<<<<< HEAD
- 
 #include "prototypes.h"
-=======
- #include "prototypes.h"
 
->>>>>>> templates
+ 
 void interface_sem_5_tasks_menu(char* text, char* word)
 {
 	system("CLS");

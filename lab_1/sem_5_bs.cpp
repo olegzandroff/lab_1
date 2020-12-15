@@ -1,8 +1,5 @@
-<<<<<<< HEAD
 #include "prototypes.h"
-=======
- #include "prototypes.h"
->>>>>>> templates
+ 
 
 bool sem_5_bad_scenario_1(const char* buffer) {
 
