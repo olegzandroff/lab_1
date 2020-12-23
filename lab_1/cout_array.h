@@ -1,6 +1,5 @@
-#include "prototypes.h"
-
-void interface_cout_array(const array_elem_t* array, int length)
+template <typename T>
+void interface_cout_array(const T* array, int length)
 {
 	for (int i = 0; i < length; i++)
 	{

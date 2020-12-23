@@ -15,13 +15,13 @@ matrix_elem_t** interface_sem_4_input_menu_item_2(int* n, int* m)
 	char* buffer = new char[10000];
 	for (int i = 0; i < *n; i++)
 	{
-		start:
 		std::cout << "#" << i + 1 << " line: ";
 		gets_s(buffer, 10000);
 		bool parsable = true;
 		int space_counter = 0;
 		for (size_t i = 0; i < strlen(buffer); i++)
 		{
+
 			if ((buffer[i] < '0' || buffer[i] > '9') && buffer[i] != '-' && buffer[i] != ' ') 
 			{
 				parsable = false;
@@ -35,10 +35,7 @@ matrix_elem_t** interface_sem_4_input_menu_item_2(int* n, int* m)
 
 		if (parsable)
 			array[i] = parse_line(buffer, *m);
-		else 
-		{
-			goto start;
-		}
+		else i--;
 	}
 	return array;
 };

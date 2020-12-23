@@ -1,5 +1,4 @@
 #include "prototypes.h"
- 
 
 matrix_elem_t** interface_sem_4_input_from_file(const char* path, int n, int m) {
 	std::ifstream file;

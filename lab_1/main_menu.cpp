@@ -1,6 +1,5 @@
 #include "prototypes.h"
  
-
 void interface_main_menu() 
 {
 	system("CLS");

@@ -105,6 +105,12 @@
     <ClInclude Include="prototypes.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
+    <ClInclude Include="templates.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="sem_4_all_characteristics.h">
+      <Filter>Исходные файлы\sem_4\sem_4_solutions\2</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="sem_4_bs.cpp">
@@ -112,12 +118,6 @@
     </ClCompile>
     <ClCompile Include="sem_3_bs.cpp">
       <Filter>Исходные файлы\sem_3\sem_3_bad_scenarios</Filter>
-    </ClCompile>
-    <ClCompile Include="cout_array.cpp">
-      <Filter>Исходные файлы\sem_3\interface</Filter>
-    </ClCompile>
-    <ClCompile Include="cout_matrix.cpp">
-      <Filter>Исходные файлы\sem_4\interface</Filter>
     </ClCompile>
     <ClCompile Include="sem_4_input_from_file.cpp">
       <Filter>Исходные файлы\sem_4\interface</Filter>
@@ -137,14 +137,8 @@
     <ClCompile Include="sem_3_input_menu.cpp">
       <Filter>Исходные файлы\sem_3\interface\input_menu</Filter>
     </ClCompile>
-    <ClCompile Include="sem_3_tasks_menu.cpp">
-      <Filter>Исходные файлы\sem_3\interface\tasks_menu</Filter>
-    </ClCompile>
     <ClCompile Include="sem_4_menu_input.cpp">
       <Filter>Исходные файлы\sem_4\interface\input_menu</Filter>
-    </ClCompile>
-    <ClCompile Include="sem_4_tasks_menu.cpp">
-      <Filter>Исходные файлы\sem_4\interface\tasks_menu</Filter>
     </ClCompile>
     <ClCompile Include="sem_5_items.cpp">
       <Filter>Исходные файлы\sem_5\interface\tasks_menu</Filter>
@@ -176,48 +170,6 @@
     <ClCompile Include="sem_4.cpp">
       <Filter>Исходные файлы\main\interface</Filter>
     </ClCompile>
-    <ClCompile Include="sem_4_tasks_menu_item_1_nonzero_columns.cpp">
-      <Filter>Исходные файлы\sem_4\interface\tasks_menu\items</Filter>
-    </ClCompile>
-    <ClCompile Include="sem_4_tasks_menu_item_2_sort_by_characterisctic.cpp">
-      <Filter>Исходные файлы\sem_4\interface\tasks_menu\items</Filter>
-    </ClCompile>
-    <ClCompile Include="sem_4_tasks_menu_item_3_everything.cpp">
-      <Filter>Исходные файлы\sem_4\interface\tasks_menu\items</Filter>
-    </ClCompile>
-    <ClCompile Include="sem_4_tasks_menu_item_4_exit.cpp">
-      <Filter>Исходные файлы\sem_4\interface\tasks_menu\items</Filter>
-    </ClCompile>
-    <ClCompile Include="absmax_i_n.cpp">
-      <Filter>Исходные файлы\sem_3\sem_3_solutions\2</Filter>
-    </ClCompile>
-    <ClCompile Include="absmax_v.cpp">
-      <Filter>Исходные файлы\sem_3\sem_3_solutions\2</Filter>
-    </ClCompile>
-    <ClCompile Include="absmin_i_n.cpp">
-      <Filter>Исходные файлы\sem_3\sem_3_solutions\2</Filter>
-    </ClCompile>
-    <ClCompile Include="absmin_v.cpp">
-      <Filter>Исходные файлы\sem_3\sem_3_solutions\2</Filter>
-    </ClCompile>
-    <ClCompile Include="get_absmax_i.cpp">
-      <Filter>Исходные файлы\sem_3\sem_3_solutions\2</Filter>
-    </ClCompile>
-    <ClCompile Include="get_absmin_i.cpp">
-      <Filter>Исходные файлы\sem_3\sem_3_solutions\2</Filter>
-    </ClCompile>
-    <ClCompile Include="sum_of_positives.cpp">
-      <Filter>Исходные файлы\sem_3\sem_3_solutions\1</Filter>
-    </ClCompile>
-    <ClCompile Include="product_between.cpp">
-      <Filter>Исходные файлы\sem_3\sem_3_solutions\2</Filter>
-    </ClCompile>
-    <ClCompile Include="sem_4_count_nonzero_columns.cpp">
-      <Filter>Исходные файлы\sem_4\sem_4_solutions\1</Filter>
-    </ClCompile>
-    <ClCompile Include="sem_4_sort.cpp">
-      <Filter>Исходные файлы\sem_4\sem_4_solutions\2</Filter>
-    </ClCompile>
     <ClCompile Include="functions_for_strings.cpp">
       <Filter>Исходные файлы\sem_5\sem_5_solution</Filter>
     </ClCompile>
@@ -245,10 +197,13 @@
     <ClCompile Include="sem_4_item_4_exit.cpp">
       <Filter>Исходные файлы\sem_4\interface\input_menu</Filter>
     </ClCompile>
-    <ClCompile Include="sem_3_item_2_from_console.cpp">
-      <Filter>Исходные файлы\sem_3\interface\input_menu\items</Filter>
+    <ClCompile Include="parse_line.cpp">
+      <Filter>Исходные файлы\sem_4\interface\input_menu</Filter>
     </ClCompile>
     <ClCompile Include="sem_3_item_1_from_file.cpp">
+      <Filter>Исходные файлы\sem_3\interface\input_menu\items</Filter>
+    </ClCompile>
+    <ClCompile Include="sem_3_item_2_from_console.cpp">
       <Filter>Исходные файлы\sem_3\interface\input_menu\items</Filter>
     </ClCompile>
     <ClCompile Include="sem_3_item_3_random_numbers.cpp">
@@ -257,38 +212,94 @@
     <ClCompile Include="sem_3_item_4_exit.cpp">
       <Filter>Исходные файлы\sem_3\interface\input_menu\items</Filter>
     </ClCompile>
-    <ClCompile Include="tasks_item_1_sum_of_positives.cpp">
-      <Filter>Исходные файлы\sem_3\interface\tasks_menu\items</Filter>
+    <ClCompile Include="sem_4_tasks_menu.h">
+      <Filter>Исходные файлы\sem_4\interface\tasks_menu</Filter>
     </ClCompile>
-    <ClCompile Include="tasks_item_2_product_between_absmin_absmax.cpp">
-      <Filter>Исходные файлы\sem_3\interface\tasks_menu\items</Filter>
+    <ClCompile Include="sem_4_tasks_menu_item_4_exit.h">
+      <Filter>Исходные файлы\sem_4\interface\tasks_menu\items</Filter>
     </ClCompile>
-    <ClCompile Include="tasks_item_4_everything.cpp">
-      <Filter>Исходные файлы\sem_3\interface\tasks_menu\items</Filter>
+    <ClCompile Include="sem_4_tasks_menu_item_3_everything.h">
+      <Filter>Исходные файлы\sem_4\interface\tasks_menu\items</Filter>
     </ClCompile>
-    <ClCompile Include="tasks_sem_3_tasks_menu_item_5_exit.cpp">
-      <Filter>Исходные файлы\sem_3\interface\tasks_menu\items</Filter>
+    <ClCompile Include="sem_4_tasks_menu_item_2_sort_by_characterisctic.h">
+      <Filter>Исходные файлы\sem_4\interface\tasks_menu\items</Filter>
     </ClCompile>
-    <ClCompile Include="sem_4_get_line_characteristics.cpp">
+    <ClCompile Include="sem_4_tasks_menu_item_1_nonzero_columns.h">
+      <Filter>Исходные файлы\sem_4\interface\tasks_menu\items</Filter>
+    </ClCompile>
+    <ClCompile Include="cout_matrix.h">
+      <Filter>Исходные файлы\sem_4\interface</Filter>
+    </ClCompile>
+    <ClCompile Include="sem_4_new_matrix.h">
       <Filter>Исходные файлы\sem_4\sem_4_solutions\2</Filter>
     </ClCompile>
-    <ClCompile Include="sem_4_get_new_matrix.cpp">
+    <ClCompile Include="sem_4_line_characteristic.h">
       <Filter>Исходные файлы\sem_4\sem_4_solutions\2</Filter>
     </ClCompile>
-    <ClCompile Include="tasks_item_3_shell_sort.cpp">
-      <Filter>Исходные файлы\sem_3\interface\tasks_menu\items</Filter>
-    </ClCompile>
-    <ClCompile Include="shell_sort.cpp">
+    <ClCompile Include="sem_3_shell_sort.h">
       <Filter>Исходные файлы\sem_3\sem_3_solutions\3</Filter>
     </ClCompile>
-    <ClCompile Include="get_pos_i.cpp">
+  </ItemGroup>
+  <ItemGroup>
+    <CopyFileToFolders Include="sem_3_tasks_menu_item_1_sum_of_positives.h">
+      <Filter>Исходные файлы\sem_3\interface\tasks_menu\items</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="sem_3_tasks_menu_item_2_product_between_absmin_absmax.h">
+      <Filter>Исходные файлы\sem_3\interface\tasks_menu\items</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="sem_3_tasks_menu_item_3_shell_sort.h">
+      <Filter>Исходные файлы\sem_3\interface\tasks_menu\items</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="sem_3_tasks_menu_item_4_everything.h">
+      <Filter>Исходные файлы\sem_3\interface\tasks_menu\items</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="sem_3_tasks_menu_item_5_exit.h">
+      <Filter>Исходные файлы\sem_3\interface\tasks_menu\items</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="cout_array.h">
+      <Filter>Исходные файлы\sem_3\interface</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="sem_3_pos_i.h">
       <Filter>Исходные файлы\sem_3\sem_3_solutions\1</Filter>
-    </ClCompile>
-    <ClCompile Include="get_pos_i_n.cpp">
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="sem_3_pos_i_n.h">
       <Filter>Исходные файлы\sem_3\sem_3_solutions\1</Filter>
-    </ClCompile>
-    <ClCompile Include="parse_line.cpp">
-      <Filter>Исходные файлы\sem_4\interface\input_menu</Filter>
-    </ClCompile>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="sem_3_sum_of_positives.h">
+      <Filter>Исходные файлы\sem_3\sem_3_solutions\1</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="sem_3_absmax_i.h">
+      <Filter>Исходные файлы\sem_3\sem_3_solutions\2</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="sem_3_absmax_i_n.h">
+      <Filter>Исходные файлы\sem_3\sem_3_solutions\2</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="sem_3_absmax_v.h">
+      <Filter>Исходные файлы\sem_3\sem_3_solutions\2</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="sem_3_absmin_i.h">
+      <Filter>Исходные файлы\sem_3\sem_3_solutions\2</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="sem_3_absmin_i_n.h">
+      <Filter>Исходные файлы\sem_3\sem_3_solutions\2</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="sem_3_absmin_v.h">
+      <Filter>Исходные файлы\sem_3\sem_3_solutions\2</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="sem_3_product_between.h">
+      <Filter>Исходные файлы\sem_3\sem_3_solutions\2</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="sem_3_tasks_menu.h">
+      <Filter>Исходные файлы\sem_3\interface\tasks_menu</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="sem_3_bad_scenario_1.h">
+      <Filter>Исходные файлы\sem_3\sem_3_bad_scenarios</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="sem_4_count_nonzero_column_i.h">
+      <Filter>Исходные файлы\sem_4\sem_4_solutions\1</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="sem_4_insertion_sort.h">
+      <Filter>Исходные файлы\sem_4\sem_4_solutions\2</Filter>
+    </CopyFileToFolders>
   </ItemGroup>
 </Project>

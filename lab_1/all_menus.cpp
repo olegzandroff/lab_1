@@ -14,6 +14,7 @@ int interface_menu_cout_and_choose(char(*a)[100], int n)
     return k;
 }
 
+
 //main
 int menu(char(*a)[100], void (*fcn_ptrs[])(), int fcn_number) 
 {
@@ -23,13 +24,7 @@ int menu(char(*a)[100], void (*fcn_ptrs[])(), int fcn_number)
 }
 
 //sem_3
-int menu(char(*a)[100], void (*fcn_ptrs[])(const array_elem_t*, int), int fcn_number,
-            const array_elem_t* array, int length)
-{
-    int k = interface_menu_cout_and_choose(a, fcn_number);
-    fcn_ptrs[k - 1](array, length);
-    return k;
-}
+
 array_elem_t* menu(char(*a)[100], array_elem_t* (*fcn_ptrs[])(int*), int fcn_number, int* length) 
 {
     int k = interface_menu_cout_and_choose(a, fcn_number);
@@ -37,14 +32,7 @@ array_elem_t* menu(char(*a)[100], array_elem_t* (*fcn_ptrs[])(int*), int fcn_num
 }
 
 //sem_4
-int menu(char(*a)[100], void (*fcn_ptrs[])(const matrix_elem_t* const*, int, int), 
-         int fcn_number, const matrix_elem_t* const* array, 
-         int n, int m)
-{
-    int k = interface_menu_cout_and_choose(a, fcn_number);
-    fcn_ptrs[k - 1](array, n, m);
-    return k;
-}
+
 
 matrix_elem_t** menu(char(*a)[100], matrix_elem_t** (*fcn_ptrs[])(int*, int*), 
                      int fcn_number, int* n, int* m)

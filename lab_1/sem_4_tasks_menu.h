@@ -1,7 +1,5 @@
-#include "prototypes.h"
- 
-
-void interface_sem_4_tasks_menu(matrix_elem_t** array, int n, int m) 
+template <typename T>
+void interface_sem_4_tasks_menu(T** array, int n, int m) 
 {
 	const int fcn_number_2 = 4;
 	char chars_2[fcn_number_2][100] = 
@@ -12,7 +10,7 @@ void interface_sem_4_tasks_menu(matrix_elem_t** array, int n, int m)
 		"4 - Go back.\n"
 	};
 
-	void (*actions_2[fcn_number_2])(const matrix_elem_t* const*, int, int) = 
+	void (*actions_2[fcn_number_2])(const T* const*, int, int) = 
 	{
 		interface_sem_4_tasks_menu_item_1,
 		interface_sem_4_tasks_menu_item_2,
@@ -32,5 +30,6 @@ void interface_sem_4_tasks_menu(matrix_elem_t** array, int n, int m)
 		std::cout << "Size of a matrix: " << n << "x" << m << "\n";
 		std::cout << "Elements: " << "\n";
 		cout_matrix(array, n, m, false);
+		std::cout << "Type: " << typeid(T).name() << "\n";
 	} while (menu(chars_2, actions_2, fcn_number_2, array, n, m) != fcn_number_2);
 };

@@ -1,6 +1,5 @@
 #include "prototypes.h"
  
-
 int interface_read_number() 
 {
 	std::cout << "Input a number: " << "\n";
